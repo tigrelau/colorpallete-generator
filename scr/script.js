@@ -22,7 +22,7 @@ paletteContainer.addEventListener("click", function (e) {
 
 function showCopySuccess(element) {
     element.classList.remove("far", "fa-copy");
-    element.classList.remove("fas", "fa-check");
+    element.classList.add("fas", "fa-check");
 
     element.style.color = "#48bb78";
 
