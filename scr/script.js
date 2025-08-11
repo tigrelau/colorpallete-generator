@@ -26,6 +26,7 @@ function showCopySuccess(element) {
 
     element.style.color = "#48bb78";
 
+    element.classList.add("icon-pop");
 
     setTimeout(()=> {
         element.classList.remove("fas", "fa-check");
