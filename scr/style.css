@@ -64,7 +64,7 @@ h1::after {
     box-shadow: 0 6px 10px rgba(102, 126, 234, 0.3);
 }
 
-#generate-bt:active {
+#generate-btn:active {
     transform: translateY(0);
 }
 
